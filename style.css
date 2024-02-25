@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #FFEBA9;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 5%;
+    background-color: #FFD6E1;
+}
+
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+}
+
+.navlist a:hover {
+    color: #7D87A2;
+}
+
+/* section */
+section {
+    padding: 120px 15% 100px;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image:url('./pic/ninieww_1\ \(2\).png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.home-text {
+    /* border: 2px solid red; */
+    background-color: white;
+    color: #FFDB65;
+    border: 2px solid #FFDB65;
+    box-shadow: 15px 15px 0px #FFDB65;
+    padding: 1rem;
+}
+
+.home-text h1 { 
+    font-size:5rem;
+    font-weight: 1000;
+    color: #FFDB65;
+}
+
+.nornor {
+    color: #FFEBA9;
+    font-size:3rem;
+    font-weight: 1000;
+}
+
+.n {
+    color: #FFDB65;
+    font-size:3rem;
+    font-weight: 1000;
+}
+/* เดี๋ยวมาต่อออออออออออออ */
+/* section */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    background-color: white;
+    width: 600px;
+    height: 700px;
+    margin: 2rem 0;
+    overflow: hidden;
+    border: 1px solid #FFEBA9;
+    box-shadow: 15px 15px 0px #ffffff;
+    
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -180px;
+    color: #ff8baa;
+}
+
+.select {
+    margin-top: 0;
+}
+
+.card-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./pic/IMG_47927D3192E0-1.PNG);
+    height: 50%;
+    background-size: cover;
+}
+
+.card-img img {
+    width: 400px;
+    padding-top: 25px;
+}
+
+.character {
+    display: flex;
+    margin-top: auto;
+}
+
+.yellow {
+    color: #ffce2e;
+    background: #fff2c8;
+    padding: .5rem;
+    border: 2px solid #ffce2e;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    background-color: #fff5d6;
+    box-shadow: 5px 5px 0px #ffce2e;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.pink {
+    color: #ff8baa;
+    background: #FFD6E1;
+    padding: .5rem;
+    border: 2px solid #ff8baa;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    background-color: #FFD6E1;
+    box-shadow: 5px 5px 0px #ff8baa;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.help-button {
+    color: #ffce2e;
+    background: #fff2c8;
+    padding: .5rem;
+    border: 2px solid #ffce2e;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    background-color: #fff5d6;
+    box-shadow: 5px 5px 0px #ffce2e;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.help-text {
+    display: none;
+    padding-top: 20px;
+    font-size: 5rem;
+}
